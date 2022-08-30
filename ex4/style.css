@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.muda-cor{
+    position: relative;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: .6s;
+    animation: deslocamento 4s linear;
+}
+
+@keyframes deslocamento {
+    from{
+        left: 0;
+    }
+    to{
+        left: 500px;
+    }
+}

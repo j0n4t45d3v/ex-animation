@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.muda-cor{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.muda-cor:hover{
+    cursor: pointer;
+    background-color: aqua;
+    transform: scale(1.1);
+}
