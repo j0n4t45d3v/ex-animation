@@ -10,7 +10,7 @@ body{
     height: 200px;
     background-color: red;
     margin: 20px;
-    animation: move 2s infinite linear;
+    animation: move .8s infinite linear;
 }
 div:nth-child(1){
     animation-delay: 2s;
