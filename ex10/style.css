@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+div{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation: roda 4s infinite linear;
+    animation-delay: 1s;
+
+}
+@keyframes roda {
+    0%{
+        left: 0;
+        top: 0;
+    }
+    100%{
+        top: -100%;
+        left: -100%;
+        width: 70px;
+        height: 70px;
+    }
+    
+}
