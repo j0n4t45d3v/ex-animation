@@ -21,12 +21,15 @@ div{
 }
 @keyframes pulsa {
     0%{
-        transform: scale(1);
+        width: 200px;
+        height: 200px;
     }
     50%{
-        transform: scale(1.2);
+        width: 400px;
+        height: 400px;
     }
     100%{
-        transform: scale(1);
+        width: 200px;
+        height: 200px;
     }
 }
