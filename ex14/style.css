@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.quadrado{ position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: red;
+    transition: .6s;
+}
+.quadrado:hover{
+   cursor: pointer;
+   border-radius: 0;
+   width: 200px;
+   height: 100px;
+}
