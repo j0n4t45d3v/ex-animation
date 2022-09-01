@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.quadrado{ 
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: red;
+    animation: mover 5s 4 ease-out;
+}
+
+@keyframes mover {
+    0%,60%{left: -45%;}
+    30%, 100%{left: 45%;}
+}
+
