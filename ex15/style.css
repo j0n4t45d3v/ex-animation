@@ -2,7 +2,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
 }
 .quadrado{ 
     position: relative;
@@ -10,11 +10,18 @@ body{
     height: 200px;
     border-radius: 100%;
     background-color: red;
-    animation: mover 5s 4 ease-out;
+    animation: mover 1s cubic-bezier(0.075, 0.2, 0.65, 0.6) 4;
 }
 
 @keyframes mover {
-    0%,60%{left: -45%;}
-    30%, 100%{left: 45%;}
+    0%{
+        left: 0;
+    }
+    50%{
+        left: 40%;
+    }
+    100%{
+        left: 0;
+    }
 }
 
